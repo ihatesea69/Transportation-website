@@ -709,5 +709,56 @@ https://templatemo.com/tm-538-digital-trend
       margin-left: 0;
     }
   }
+  .wrap{
+    position: absolute;
+    height: 150px;
+    bottom: 100px;
+    left: 0;
+    width: 100%;
+  }
+  .image{
+    width: 150px;
+    position: absolute;
+  }
+  .truck-img{
+    bottom: 0;
+    left: -150px;
+    z-index: 2;
+    animation: truck 10s linear infinite;
+  }
+  @keyframes truck{
+    40%, 70%{
+      left: 60%;
+    }
+    100%{
+      left: 100%;
+    }
+  }
+  .box-img{
+    width: 35px;
+    z-index: 1;
+    top: 55%;
+    left: 60%;
+    opacity: 0;
+    animation: box 10s linear infinite;
+  }
+  .box-img2{
+    animation-delay: 1s;
+  }
+  @keyframes box{
+    0%, 40%{
+      opacity: 0;
+      left: 55%;
+    }
+    50%{
+      opacity: 1;
+      left: 60%;
+    }
+    60%, 100%{
+      opacity: 0;
+      left: 60%;
+    }
+  }
+ 
 
 
