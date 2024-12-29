@@ -1,90 +1,29 @@
-Here's a detailed `README.md` for the "Danh Nam Logistics" static website project:
+# Simple Bootstrap Website for Supporting My Father's Transport Business
 
-```markdown
-# Danh Nam Logistics - Static Website
-
-This is a static website designed for "Danh Nam Logistics", a logistics service provider based in Kiên Giang. The website showcases the company's services, experience, and client testimonials. It includes various sections like Shipping, Our Works, Blog, and Contact, and is fully responsive, optimized for both desktop and mobile devices.
+This is a simple website built using Bootstrap to assist my father in his transport business. The website provides essential information about his services and helps customers easily get in touch with him. It is designed to be user-friendly, responsive, and suitable for both desktop and mobile devices.
 
 ## Features
-- **Responsive Navigation Bar**: Links to different sections of the page with a collapsible menu on mobile devices.
-- **Hero Section**: A visually engaging section with a background image and a call-to-action button for quick contact.
-- **About Section**: Provides an overview of the company's mission and services.
-- **Project Section**: Highlights the company’s work with a carousel slider to showcase various projects.
-- **Testimonial Section**: Displays feedback and testimonials from customers and key personnel.
-- **Footer Section**: Contains contact information, social media links, and additional website links.
+- **Responsive Design**: The website is fully responsive, ensuring that it looks good on both mobile devices and desktops.
+- **Contact Information**: Easy access to the contact details for customers to inquire about services.
+- **Service Overview**: A clear explanation of the transport services offered.
+- **Simple Navigation**: With Bootstrap’s navigation bar, users can easily access the key sections of the website.
 
 ## Technologies Used
-- **HTML**: Basic structure of the website.
-- **CSS**: Styling the layout, fonts, and colors.
-  - Bootstrap for responsive design.
-  - Custom CSS for additional styling and animations.
-- **JavaScript**: 
-  - Used for smooth scrolling and animations.
-  - Owl Carousel for the project section slideshow.
-  - AOS (Animate On Scroll) library for scroll-based animations.
-- **Font Awesome**: Icons for social media links, contact info, and buttons.
+- **HTML**: For the basic structure of the website.
+- **CSS**: To style the layout and elements.
+- **Bootstrap**: For responsive design and pre-built components.
+- **JavaScript**: For adding some interactive features (if needed).
 
-## Folder Structure
-```
-.
-├── css/
-│   ├── bootstrap.min.css         # Bootstrap styles
-│   ├── font-awesome.min.css      # Font Awesome icons
-│   ├── aos.css                  # Animate On Scroll (AOS) CSS
-│   ├── owl.carousel.min.css      # Owl Carousel styles
-│   └── templatemo-digital-trend.css # Custom styles for the website
-├── images/
-│   ├── project/                 # Project-related images
-│   ├── truck.png                # Truck image used in the hero section
-│   ├── office.png               # Office image in the about section
-│   └── other images for layout  # Additional images
-├── js/
-│   ├── bootstrap.min.js         # Bootstrap JS functionality
-│   ├── aos.js                   # AOS JS for scroll animations
-│   ├── owl.carousel.min.js       # Owl Carousel JS for the project slider
-│   ├── smoothscroll.js           # Smooth scrolling functionality
-│   └── custom.js                # Custom JS for interactions and additional functionality
-├── index.html                   # Homepage
-├── blog.html                    # Blog page
-├── contact.html                 # Contact page
-└── README.md                    # Project documentation (this file)
-```
+## Purpose
+The primary goal of the website is to provide potential customers with an easy way to learn about and contact the transport business. It serves as an online presence for the business, showcasing its services and contact details in a straightforward manner.
 
 ## How to Use
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/danh-nam-logistics.git
-   ```
-
-2. **Open the Website**:
-   Simply open the `index.html` file in your browser to view the homepage. The website is a static page, so no backend or database is required.
-
-3. **Modify Content**:
-   - You can update the text, images, and other content directly in the HTML files.
-   - To modify the style, you can edit the CSS files in the `css` folder.
-
-4. **Hosting**:
-   This website is fully static and can be hosted on any web server or static website hosting platforms like GitHub Pages, Netlify, or Vercel.
-
-## Demo
-You can view a live demo of this website at [https://your-website-link.com](https://your-website-link.com).
-
-## Contact
-For more information, feel free to reach out to us:
-- **Phone**: +99 080 070 4224
-- **Email**: hello@danhnamlogistics.com
+1. **Clone or Download** the repository to your local machine.
+2. **Open the `index.html` file** in your browser to view the website.
+3. **Customize the Content**: Edit the text and images to fit your father's business information.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is open for personal use and customization. Feel free to modify it to suit your needs.
 
 ---
-
-Created by **Danh Nam Logistics** Team.
-```
-
-### How to Modify:
-
-- You can replace placeholders like `your-username` with the actual GitHub username or repository link.
-- Adjust any section or content to fit the actual details of the project.
-
-This `README.md` provides a comprehensive overview of the project, its features, and how to get started with the project.
+Created by **[Your Name]**.
